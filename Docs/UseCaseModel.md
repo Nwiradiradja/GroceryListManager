@@ -1,6 +1,6 @@
 # Use Case Model
 
-**Author**: Team 2
+**Author**: Nathaniel Wiradiradja
 
 ## 1 Use Case Diagram
 ![Use Case Diagram](https://github.com/qc-se-fall2022/370Fall22Sec34Team2/blob/main/PNG/UseCaseDiagram.png?raw=true)
