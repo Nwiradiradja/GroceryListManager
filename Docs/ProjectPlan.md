@@ -1,5 +1,5 @@
 # Project Plan
-**Author**: Team 2
+**Author**: Nathaniel Wiradiradja
 ## 1 Introduction
 This application allows for users to create and manage grocery lists from the palm of their hand on their mobile device, making shopping for groceries more convenient than ever before.
 
@@ -54,28 +54,6 @@ This application allows for users to create and manage grocery lists from the pa
 * The exit criteria is the finalized working application ready to be published.
 
 
-
-## 3 Team
-**Team Members**
-* Nathaniel Wiradiradja
-* Ludong Li     
-* Kevin Yasruel
-* David Rabinovich
-* Xiang Chen
-
-**Roles**
-* Leader
-* Designer
-* Coder
-* Tester
-* Documenter
-
-**Table**
-
-David  Rabinovich| Ludong Li | Nathaniel Wiradiradja | Kevin Yasruel | Xiang Chen|
------------------|-----------|-----------------------|---------------|-----------|
-Coder | Designer | Leader | Coder | Tester|
-Tester | Coder | Coder & Documenter | Designer | Coder|
 
 
 
