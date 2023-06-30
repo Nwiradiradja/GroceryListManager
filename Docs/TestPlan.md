@@ -1,6 +1,6 @@
 # Test Plan
 
-**Author**: Team 2
+**Author**: Nathaniel Wiradiradja
 
 ## 1 Testing Strategy
 
