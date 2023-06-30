@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GroceryListManager"
+        android:textSize="40sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textSize="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        />
+
+
+
+    <Button
+        android:id="@+id/initialiazation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

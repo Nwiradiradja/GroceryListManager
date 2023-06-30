@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/bk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/listID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List"
+            android:textSize="35dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:columnOrderPreserved="true"
+        android:padding="20dp" >
+
+        <CheckBox
+            android:id="@+id/checkAll"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Type"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Quantity"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </GridLayout>
+
+
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:columnCount="5"
+        android:columnOrderPreserved="true"
+        android:padding="20dp"
+        android:layout_gravity="center">
+
+
+
+
+    </GridLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/addItem"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Add Item"
+            android:layout_marginRight="30dp"
+            android:onClick="clickAddItem"
+            />
+
+
+        <Button
+            android:id="@+id/deleteItem"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Delete Item"
+            android:layout_marginRight="10dp"
+            android:onClick="clickDelItem"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+
+        <Button
+            android:id="@+id/change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Qtt"
+            android:layout_gravity="center"
+            android:gravity="center|center_horizontal"
+            android:onClick="clickChange"
+            android:layout_marginRight="10dp"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+
+
+        <Button
+            android:id="@+id/checkOffItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Off Items"
+            android:layout_marginRight="30dp"
+            android:onClick="clickCekItem"
+            />
+
+        <Button
+            android:id="@+id/Clear"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Clear Marks"
+            android:layout_gravity="center"
+            android:gravity="center|center_horizontal"
+            android:layout_marginRight="10dp"
+            android:onClick="clickClear"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
