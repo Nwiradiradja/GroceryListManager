@@ -1,5 +1,5 @@
 # Design Document
-**Author**: Team 2
+**Author**: Nathaniel Wiradiradja
 
 ## 1 Design Considerations
 ### 1.1 Assumptions
